@@ -1,0 +1,676 @@
+[gd_scene load_steps=116 format=2]
+
+[ext_resource path="res://characters/stickman/sprites/stickman35.png" type="Texture" id=1]
+[ext_resource path="res://characters/stickman/sprites/stickman37.png" type="Texture" id=2]
+[ext_resource path="res://characters/stickman/sprites/stickman38.png" type="Texture" id=3]
+[ext_resource path="res://characters/stickman/sprites/stickman39.png" type="Texture" id=4]
+[ext_resource path="res://characters/stickman/sprites/stickman41.png" type="Texture" id=5]
+[ext_resource path="res://characters/stickman/sprites/stickman60.png" type="Texture" id=6]
+[ext_resource path="res://characters/stickman/sprites/chuk_jump1.png" type="Texture" id=7]
+[ext_resource path="res://characters/stickman/sprites/stickman59.png" type="Texture" id=8]
+[ext_resource path="res://characters/stickman/sprites/chuk_jump2.png" type="Texture" id=9]
+[ext_resource path="res://characters/stickman/sprites/stickman32.png" type="Texture" id=10]
+[ext_resource path="res://characters/stickman/sprites/stickman40.png" type="Texture" id=11]
+[ext_resource path="res://characters/stickman/sprites/nunchuk_heavy4.png" type="Texture" id=12]
+[ext_resource path="res://characters/stickman/sprites/chuk_jump3.png" type="Texture" id=13]
+[ext_resource path="res://characters/stickman/sprites/nunchuk_heavy1.png" type="Texture" id=14]
+[ext_resource path="res://characters/stickman/sprites/nunchuk_heavy3.png" type="Texture" id=15]
+[ext_resource path="res://characters/stickman/sprites/nunchuk_heavy2.png" type="Texture" id=16]
+[ext_resource path="res://characters/stickman/sprites/stickman53.png" type="Texture" id=17]
+[ext_resource path="res://characters/stickman/sprites/chuk_spin7.png" type="Texture" id=18]
+[ext_resource path="res://characters/stickman/sprites/chuk_spin6.png" type="Texture" id=19]
+[ext_resource path="res://characters/stickman/sprites/stickman55.png" type="Texture" id=20]
+[ext_resource path="res://characters/stickman/sprites/stickman49.png" type="Texture" id=21]
+[ext_resource path="res://characters/stickman/sprites/stickman48.png" type="Texture" id=22]
+[ext_resource path="res://characters/stickman/sprites/stickman44.png" type="Texture" id=23]
+[ext_resource path="res://characters/stickman/sprites/stickman56.png" type="Texture" id=24]
+[ext_resource path="res://characters/stickman/sprites/stickman50.png" type="Texture" id=25]
+[ext_resource path="res://characters/stickman/sprites/stickman45.png" type="Texture" id=26]
+[ext_resource path="res://characters/stickman/sprites/stickman51.png" type="Texture" id=27]
+[ext_resource path="res://characters/stickman/sprites/stickman61.png" type="Texture" id=28]
+[ext_resource path="res://characters/stickman/sprites/stickman54.png" type="Texture" id=29]
+[ext_resource path="res://characters/stickman/sprites/stickman42.png" type="Texture" id=30]
+[ext_resource path="res://characters/stickman/sprites/stickman52.png" type="Texture" id=31]
+[ext_resource path="res://characters/stickman/sprites/phantomdash1.png" type="Texture" id=32]
+[ext_resource path="res://characters/stickman/sprites/stickman33.png" type="Texture" id=33]
+[ext_resource path="res://characters/stickman/sprites/stickman46.png" type="Texture" id=34]
+[ext_resource path="res://characters/stickman/sprites/stickman47.png" type="Texture" id=35]
+[ext_resource path="res://characters/stickman/sprites/stickman58.png" type="Texture" id=36]
+[ext_resource path="res://characters/stickman/sprites/phantomdash3.png" type="Texture" id=37]
+[ext_resource path="res://characters/stickman/sprites/phantomdash2.png" type="Texture" id=38]
+[ext_resource path="res://characters/stickman/sprites/nunchuk_light3.png" type="Texture" id=39]
+[ext_resource path="res://characters/stickman/sprites/nunchuk_light2.png" type="Texture" id=40]
+[ext_resource path="res://characters/stickman/sprites/nunchuk_light1.png" type="Texture" id=41]
+[ext_resource path="res://characters/stickman/sprites/chuk_spin4.png" type="Texture" id=42]
+[ext_resource path="res://characters/stickman/sprites/chuk_spin5.png" type="Texture" id=43]
+[ext_resource path="res://characters/stickman/sprites/chuk_spin2.png" type="Texture" id=44]
+[ext_resource path="res://characters/stickman/sprites/chuk_spin3.png" type="Texture" id=45]
+[ext_resource path="res://characters/stickman/sprites/wall_slam.png" type="Texture" id=46]
+[ext_resource path="res://characters/stickman/sprites/chuk_spin1.png" type="Texture" id=47]
+[ext_resource path="res://JackCharacter/characters/test/ActionUIData.tscn" type="PackedScene" id=48]
+[ext_resource path="res://JackCharacter/characters/test/BidenBlastScene.tscn" type="PackedScene" id=49]
+[ext_resource path="res://JackCharacter/characters/test/SummonEagleScene.tscn" type="PackedScene" id=50]
+[ext_resource path="res://JackCharacter/characters/test/VertSlider.tscn" type="PackedScene" id=51]
+[ext_resource path="res://JackCharacter/characters/test/Sprites/American Dream/idle1.png" type="Texture" id=52]
+[ext_resource path="res://JackCharacter/characters/test/Sprites/BidenBlast/idle3.png" type="Texture" id=53]
+[ext_resource path="res://JackCharacter/characters/test/Sprites/Insult/idle2.png" type="Texture" id=54]
+[ext_resource path="res://JackCharacter/characters/test/Sprites/Insult/idle1.png" type="Texture" id=55]
+[ext_resource path="res://JackCharacter/characters/test/Sprites/Insult/idle4.png" type="Texture" id=56]
+[ext_resource path="res://JackCharacter/characters/test/Sprites/American Dream/idle2.png" type="Texture" id=57]
+[ext_resource path="res://JackCharacter/characters/test/Sprites/idle/idle1.png.tres" type="Texture" id=58]
+[ext_resource path="res://JackCharacter/characters/test/Sprites/Insult/icon.png" type="Texture" id=59]
+[ext_resource path="res://JackCharacter/characters/test/Sprites/PresenceOfMind/presence of mind2.png" type="Texture" id=60]
+[ext_resource path="res://JackCharacter/characters/test/Sprites/American Dream/icon.png" type="Texture" id=61]
+[ext_resource path="res://JackCharacter/characters/test/Sprites/PresenceOfMind/Presence Of Mind Icon.png" type="Texture" id=62]
+[ext_resource path="res://JackCharacter/characters/test/Sprites/PresenceOfMind/presence of mind1.png" type="Texture" id=63]
+[ext_resource path="res://JackCharacter/characters/test/Sprites/BidenBlast/idle2.png" type="Texture" id=64]
+[ext_resource path="res://JackCharacter/characters/test/Sprites/BidenBlast/BidenBlastIcon.png" type="Texture" id=65]
+[ext_resource path="res://JackCharacter/characters/test/Sprites/Insult/idle5.png" type="Texture" id=66]
+[ext_resource path="res://JackCharacter/characters/test/Sprites/American Dream/idle3.png" type="Texture" id=67]
+[ext_resource path="res://JackCharacter/characters/test/Sprites/Summon Eagle/icon.png" type="Texture" id=68]
+[ext_resource path="res://JackCharacter/characters/test/Sprites/Insult/idle3.png" type="Texture" id=69]
+[ext_resource path="res://characters/BaseChar.gdshader" type="Shader" id=70]
+[ext_resource path="res://mechanics/Hitbox.gd" type="Script" id=71]
+[ext_resource path="res://characters/BaseChar.tscn" type="PackedScene" id=72]
+[ext_resource path="res://JackCharacter/characters/test/States/testAttack.gd" type="Script" id=73]
+[ext_resource path="res://characters/stickman/sprites/stickman30.png" type="Texture" id=74]
+[ext_resource path="res://characters/stickman/sprites/stickman17.png" type="Texture" id=75]
+[ext_resource path="res://characters/stickman/sprites/stickman18.png" type="Texture" id=76]
+[ext_resource path="res://characters/stickman/sprites/stickman5.png" type="Texture" id=77]
+[ext_resource path="res://characters/stickman/sprites/stickman6.png" type="Texture" id=78]
+[ext_resource path="res://characters/stickman/sprites/stickman8.png" type="Texture" id=79]
+[ext_resource path="res://characters/stickman/sprites/stickman7.png" type="Texture" id=80]
+[ext_resource path="res://characters/stickman/sprites/stickman4.png" type="Texture" id=81]
+[ext_resource path="res://characters/stickman/sprites/stickman12.png" type="Texture" id=82]
+[ext_resource path="res://characters/stickman/sprites/stickman13.png" type="Texture" id=83]
+[ext_resource path="res://characters/stickman/sprites/stickman14.png" type="Texture" id=84]
+[ext_resource path="res://characters/stickman/sprites/stickman15.png" type="Texture" id=85]
+[ext_resource path="res://characters/stickman/sprites/stickman16.png" type="Texture" id=86]
+[ext_resource path="res://characters/stickman/sprites/stickman9.png" type="Texture" id=87]
+[ext_resource path="res://characters/stickman/sprites/stickman11.png" type="Texture" id=88]
+[ext_resource path="res://characters/stickman/sprites/stickman10.png" type="Texture" id=89]
+[ext_resource path="res://characters/stickman/sprites/stickman2.png" type="Texture" id=90]
+[ext_resource path="res://characters/stickman/sprites/stickman3.png" type="Texture" id=91]
+[ext_resource path="res://characters/stickman/sprites/stickman26.png" type="Texture" id=92]
+[ext_resource path="res://characters/stickman/sprites/stickman36.png" type="Texture" id=93]
+[ext_resource path="res://characters/stickman/sprites/stickman21.png" type="Texture" id=94]
+[ext_resource path="res://characters/stickman/sprites/stickman22.png" type="Texture" id=95]
+[ext_resource path="res://characters/stickman/sprites/stickman24.png" type="Texture" id=96]
+[ext_resource path="res://characters/stickman/sprites/stickman20.png" type="Texture" id=97]
+[ext_resource path="res://characters/stickman/sprites/stickman27.png" type="Texture" id=98]
+[ext_resource path="res://characters/stickman/sprites/stickman29.png" type="Texture" id=99]
+[ext_resource path="res://characters/stickman/sprites/stickman23.png" type="Texture" id=100]
+[ext_resource path="res://characters/stickman/sprites/stickman57.png" type="Texture" id=101]
+[ext_resource path="res://characters/stickman/sprites/stickman34.png" type="Texture" id=102]
+[ext_resource path="res://characters/stickman/sprites/stickman19.png" type="Texture" id=103]
+[ext_resource path="res://characters/stickman/sprites/stickman28.png" type="Texture" id=104]
+[ext_resource path="res://JackCharacter/characters/test/States/SummonEagleState.gd" type="Script" id=105]
+[ext_resource path="res://JackCharacter/characters/test/States/BidenBlastState.gd" type="Script" id=106]
+[ext_resource path="res://JackCharacter/characters/test/Node2D.gd" type="Script" id=107]
+[ext_resource path="res://JackCharacter/characters/test/BidenChar.gd" type="Script" id=108]
+[ext_resource path="res://JackCharacter/characters/test/States/BidenDash.gd" type="Script" id=109]
+[ext_resource path="res://JackCharacter/characters/test/BidenArtSpeed.gd" type="Script" id=110]
+[ext_resource path="res://JackCharacter/characters/test/BidenDashUI.tscn" type="PackedScene" id=111]
+[ext_resource path="res://JackCharacter/characters/test/BidenArtShield.gd" type="Script" id=112]
+[ext_resource path="res://JackCharacter/characters/test/BidenArtDamage.gd" type="Script" id=113]
+
+[sub_resource type="ShaderMaterial" id=2]
+resource_local_to_scene = true
+shader = ExtResource( 70 )
+shader_param/use_extra_color_1 = false
+shader_param/use_extra_color_2 = false
+shader_param/extra_replace_color_1 = Color( 1, 0, 1, 1 )
+shader_param/extra_replace_color_2 = Color( 1, 0, 1, 1 )
+shader_param/color = Color( 1, 1, 1, 1 )
+shader_param/extra_color_1 = Color( 1, 1, 1, 1 )
+shader_param/extra_color_2 = Color( 1, 1, 1, 1 )
+shader_param/max_color_distance = 0.01
+shader_param/super_dim = false
+shader_param/use_outline = false
+shader_param/outline_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 84 ), ExtResource( 84 ), ExtResource( 84 ), ExtResource( 84 ), ExtResource( 85 ), ExtResource( 85 ), ExtResource( 85 ), ExtResource( 85 ), ExtResource( 85 ), ExtResource( 85 ), ExtResource( 85 ), ExtResource( 86 ) ],
+"loop": true,
+"name": "AirAttack",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 92 ), ExtResource( 92 ), ExtResource( 92 ), ExtResource( 92 ), ExtResource( 92 ), ExtResource( 92 ), ExtResource( 92 ), ExtResource( 92 ), ExtResource( 92 ), ExtResource( 92 ), ExtResource( 92 ), ExtResource( 92 ), ExtResource( 104 ) ],
+"loop": true,
+"name": "AirFireball",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ), ExtResource( 4 ), ExtResource( 4 ), ExtResource( 4 ), ExtResource( 11 ), ExtResource( 11 ), ExtResource( 5 ) ],
+"loop": true,
+"name": "AirUpwardPunch",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 52 ), ExtResource( 57 ), ExtResource( 67 ) ],
+"loop": true,
+"name": "AmericanDream",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 58 ), ExtResource( 64 ), ExtResource( 53 ) ],
+"loop": true,
+"name": "Biden Blast",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 99 ) ],
+"loop": true,
+"name": "Burst",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 91 ) ],
+"loop": true,
+"name": "DashBackward",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 90 ) ],
+"loop": true,
+"name": "DashForward",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 27 ), ExtResource( 27 ), ExtResource( 27 ), ExtResource( 27 ), ExtResource( 27 ), ExtResource( 27 ), ExtResource( 27 ), ExtResource( 27 ), ExtResource( 27 ), ExtResource( 27 ), ExtResource( 27 ), ExtResource( 30 ) ],
+"loop": true,
+"name": "DiveKick",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 77 ), ExtResource( 78 ), ExtResource( 80 ), ExtResource( 79 ) ],
+"loop": true,
+"name": "DoubleJump",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 23 ), ExtResource( 23 ), ExtResource( 23 ), ExtResource( 23 ), ExtResource( 23 ), ExtResource( 23 ), ExtResource( 23 ), ExtResource( 23 ), ExtResource( 23 ), ExtResource( 23 ), ExtResource( 23 ), ExtResource( 23 ), ExtResource( 23 ), ExtResource( 26 ) ],
+"loop": true,
+"name": "DropKick",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 92 ), ExtResource( 92 ), ExtResource( 92 ), ExtResource( 92 ), ExtResource( 92 ), ExtResource( 92 ), ExtResource( 92 ), ExtResource( 92 ), ExtResource( 92 ), ExtResource( 92 ), ExtResource( 92 ), ExtResource( 92 ), ExtResource( 98 ) ],
+"loop": true,
+"name": "Fireball",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 8 ), ExtResource( 8 ), ExtResource( 8 ), ExtResource( 8 ), ExtResource( 8 ), ExtResource( 8 ), ExtResource( 8 ), ExtResource( 8 ), ExtResource( 6 ) ],
+"loop": true,
+"name": "ForwardThrow",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "Getup",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 101 ), ExtResource( 101 ), ExtResource( 101 ), ExtResource( 101 ), ExtResource( 36 ), ExtResource( 36 ), ExtResource( 36 ), ExtResource( 36 ), ExtResource( 36 ), ExtResource( 36 ), ExtResource( 36 ), ExtResource( 36 ), ExtResource( 36 ) ],
+"loop": true,
+"name": "Grab",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 77 ) ],
+"loop": true,
+"name": "Grabbed",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 102 ), ExtResource( 102 ), ExtResource( 102 ), ExtResource( 102 ), ExtResource( 1 ), ExtResource( 1 ), ExtResource( 1 ), ExtResource( 93 ) ],
+"loop": true,
+"name": "GroundedKick",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 88 ), ExtResource( 88 ), ExtResource( 82 ), ExtResource( 82 ), ExtResource( 83 ) ],
+"loop": true,
+"name": "GroundedPunch",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 34 ), ExtResource( 34 ), ExtResource( 34 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 35 ), ExtResource( 35 ), ExtResource( 22 ), ExtResource( 22 ), ExtResource( 21 ), ExtResource( 21 ), ExtResource( 21 ), ExtResource( 21 ), ExtResource( 21 ), ExtResource( 21 ), ExtResource( 25 ) ],
+"loop": true,
+"name": "GroundedSweep",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 75 ) ],
+"loop": true,
+"name": "HurtAerial",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 89 ) ],
+"loop": true,
+"name": "HurtGroundedHigh",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 76 ) ],
+"loop": true,
+"name": "HurtGroundedLow",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 87 ) ],
+"loop": true,
+"name": "HurtGroundedMid",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "InstantCancel",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 55 ), ExtResource( 54 ), ExtResource( 69 ), ExtResource( 56 ), ExtResource( 66 ) ],
+"loop": true,
+"name": "Insult",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 81 ) ],
+"loop": true,
+"name": "Jump",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 77 ), ExtResource( 79 ), ExtResource( 80 ), ExtResource( 78 ) ],
+"loop": true,
+"name": "JumpBack",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 31 ), ExtResource( 31 ), ExtResource( 17 ), ExtResource( 17 ), ExtResource( 17 ), ExtResource( 17 ), ExtResource( 17 ), ExtResource( 17 ), ExtResource( 29 ), ExtResource( 29 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 20 ), ExtResource( 24 ) ],
+"loop": true,
+"name": "JumpKick",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 74 ) ],
+"loop": true,
+"name": "Knockdown",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 96 ) ],
+"loop": true,
+"name": "Landing",
+"speed": 5.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "New Anim 1",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 14 ), ExtResource( 14 ), ExtResource( 14 ), ExtResource( 14 ), ExtResource( 14 ), ExtResource( 14 ), ExtResource( 14 ), ExtResource( 14 ), ExtResource( 16 ), ExtResource( 16 ), ExtResource( 16 ), ExtResource( 15 ), ExtResource( 15 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 16 ), ExtResource( 16 ), ExtResource( 12 ) ],
+"loop": true,
+"name": "NunChukHeavy",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 7 ), ExtResource( 7 ), ExtResource( 7 ), ExtResource( 7 ), ExtResource( 7 ), ExtResource( 7 ), ExtResource( 7 ), ExtResource( 7 ), ExtResource( 7 ), ExtResource( 7 ), ExtResource( 7 ), ExtResource( 7 ), ExtResource( 7 ), ExtResource( 7 ), ExtResource( 7 ), ExtResource( 9 ), ExtResource( 9 ), ExtResource( 9 ), ExtResource( 9 ), ExtResource( 13 ) ],
+"loop": true,
+"name": "NunChukJump",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 41 ), ExtResource( 41 ), ExtResource( 41 ), ExtResource( 41 ), ExtResource( 41 ), ExtResource( 40 ), ExtResource( 40 ), ExtResource( 40 ), ExtResource( 39 ) ],
+"loop": true,
+"name": "NunChukLight",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 47 ), ExtResource( 47 ), ExtResource( 47 ), ExtResource( 44 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 45 ), ExtResource( 45 ), ExtResource( 45 ), ExtResource( 42 ), ExtResource( 42 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 43 ), ExtResource( 43 ), ExtResource( 43 ), ExtResource( 19 ), ExtResource( 19 ), ExtResource( 19 ), ExtResource( 45 ), ExtResource( 45 ), ExtResource( 45 ), ExtResource( 45 ), ExtResource( 42 ), ExtResource( 42 ), ExtResource( 42 ), ExtResource( 18 ), ExtResource( 18 ), ExtResource( 18 ), ExtResource( 18 ) ],
+"loop": true,
+"name": "NunChukSpin",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 10 ) ],
+"loop": true,
+"name": "ParryHigh",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 33 ) ],
+"loop": true,
+"name": "ParryLow",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 63 ), ExtResource( 60 ) ],
+"loop": true,
+"name": "PresenceOfMind",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 32 ), ExtResource( 32 ), ExtResource( 32 ), ExtResource( 32 ), ExtResource( 38 ), ExtResource( 37 ) ],
+"loop": true,
+"name": "QuickSlash",
+"speed": 60.0
+}, {
+"frames": [ ExtResource( 79 ), ExtResource( 80 ), ExtResource( 78 ), ExtResource( 77 ) ],
+"loop": true,
+"name": "RollBackward",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 77 ), ExtResource( 78 ), ExtResource( 80 ), ExtResource( 79 ) ],
+"loop": true,
+"name": "RollForward",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 28 ) ],
+"loop": true,
+"name": "ThrowTech",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 103 ), ExtResource( 103 ), ExtResource( 97 ), ExtResource( 97 ), ExtResource( 94 ), ExtResource( 94 ), ExtResource( 94 ), ExtResource( 94 ), ExtResource( 95 ), ExtResource( 100 ) ],
+"loop": true,
+"name": "Uppercut",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 58 ) ],
+"loop": true,
+"name": "Wait",
+"speed": 30.0
+}, {
+"frames": [ ExtResource( 46 ) ],
+"loop": true,
+"name": "WallSlam",
+"speed": 5.0
+} ]
+
+[node name="The Bidenator" instance=ExtResource( 72 )]
+script = ExtResource( 108 )
+__meta__ = {
+"_editor_description_": ""
+}
+character_portrait = ExtResource( 58 )
+
+[node name="Sprite" parent="Flip" index="0"]
+material = SubResource( 2 )
+frames = SubResource( 1 )
+animation = "Insult"
+frame = 3
+playing = true
+
+[node name="DashForward" parent="StateMachine" index="24"]
+script = ExtResource( 109 )
+__meta__ = {
+"_editor_description_": ""
+}
+apply_forces = true
+apply_fric = true
+apply_grav = true
+apply_custom_x_fric = true
+apply_forces_no_limit = true
+custom_x_fric = "-0.2"
+data_ui_scene = ExtResource( 111 )
+next_state_on_hold = false
+dash_speed = 10
+
+[node name="testAttack" type="Node2D" parent="StateMachine" index="54"]
+script = ExtResource( 73 )
+apply_forces = true
+apply_fric = true
+apply_grav = true
+sprite_animation = "PresenceOfMind"
+anim_length = 8
+ticks_per_frame = 2
+title = "Presence Of Mind"
+type = 1
+button_texture = ExtResource( 62 )
+air_type = 2
+interrupt_from_string = "Grounded
+GroundedAttack
+Aerial
+AerialAttack"
+interrupt_into_string = "Grounded
+GroundedAttack
+Aerial
+AerialAttack"
+hit_cancel_into_string = "Grounded
+GroundedAttack
+Aerial
+AerialAttack"
+
+[node name="Hitbox" type="Node2D" parent="StateMachine/testAttack" index="0"]
+z_index = 1000
+script = ExtResource( 71 )
+x = 13
+y = -23
+width = 12
+height = 10
+damage = 50
+minimum_damage = 50
+hitstun_ticks = 18
+victim_hitlag = 0
+dir_x = "0"
+dir_y = "0"
+knockback = "5"
+send_away_from_center = true
+start_tick = 4
+active_ticks = 2
+
+[node name="AmericanDream" type="Node2D" parent="StateMachine" index="55"]
+script = ExtResource( 73 )
+apply_forces = true
+apply_fric = true
+apply_grav = true
+sprite_animation = "AmericanDream"
+anim_length = 19
+ticks_per_frame = 2
+force_dir_x = "2"
+force_speed = "2"
+force_tick = 2
+title = "American Dream"
+type = 1
+button_texture = ExtResource( 61 )
+flip_with_facing = true
+interrupt_from_string = "Grounded
+GroundedAttack"
+interrupt_into_string = "Grounded"
+hit_cancel_into_string = "Grounded"
+
+[node name="Hitbox" type="Node2D" parent="StateMachine/AmericanDream" index="0"]
+z_index = 1000
+script = ExtResource( 71 )
+x = 32
+y = -55
+width = 26
+damage = 80
+minimum_damage = 50
+hitstun_ticks = 20
+victim_hitlag = 0
+start_tick = 6
+active_ticks = 10
+
+[node name="Insult" type="Node2D" parent="StateMachine" index="56"]
+script = ExtResource( 73 )
+apply_forces = true
+apply_fric = true
+apply_grav = true
+sprite_animation = "Insult"
+anim_length = 15
+ticks_per_frame = 3
+force_dir_x = "0"
+force_speed = "0"
+force_tick = 2
+title = "Insult"
+type = 1
+button_texture = ExtResource( 59 )
+flip_with_facing = true
+interrupt_from_string = "Grounded
+GroundedAttack"
+interrupt_into_string = "Grounded"
+hit_cancel_into_string = "Grounded"
+
+[node name="Hitbox" type="Node2D" parent="StateMachine/Insult" index="0"]
+z_index = 1000
+script = ExtResource( 71 )
+x = 12
+y = -19
+width = 19
+height = 15
+damage = 40
+minimum_damage = 10
+hitstun_ticks = 15
+victim_hitlag = 0
+start_tick = 6
+active_ticks = 7
+
+[node name="Hitbox2" type="Node2D" parent="StateMachine/Insult" index="1"]
+z_index = 1000
+script = ExtResource( 71 )
+x = 43
+y = -16
+width = 18
+height = 9
+damage = 60
+minimum_damage = 30
+hitstun_ticks = 20
+victim_hitlag = 0
+plus_frames = 4
+send_away_from_center = true
+start_tick = 12
+active_ticks = 1
+
+[node name="BidenBlast" type="Node2D" parent="StateMachine" index="57"]
+script = ExtResource( 106 )
+__meta__ = {
+"_editor_description_": ""
+}
+apply_forces = true
+apply_fric = true
+apply_grav = true
+sprite_animation = "Biden Blast"
+anim_length = 12
+ticks_per_frame = 4
+enter_force_dir_x = "-2"
+enter_force_speed = "2"
+title = "Biden Blast"
+type = 2
+data_ui_scene = ExtResource( 48 )
+button_texture = ExtResource( 65 )
+air_type = 2
+interrupt_from_string = "Grounded
+Aerial"
+interrupt_into_string = "Grounded
+Aerial"
+hit_cancel_into_string = "Grounded
+GroundedAttack
+Aerial
+AerialAttack"
+BidenBlastScene = ExtResource( 49 )
+projPosX = 2
+projPosY = -18
+
+[node name="EquipBidenBlade" type="Node2D" parent="StateMachine" index="58"]
+script = ExtResource( 107 )
+apply_forces = true
+apply_fric = true
+apply_grav = true
+anim_length = 8
+type = 3
+air_type = 2
+iasa_at = 4
+interrupt_from_string = "Grounded
+GroundedAttack
+Aerial
+AerialAttack"
+interrupt_into_string = "Grounded
+GroundedAttack
+Aerial
+AerialAttack"
+hit_cancel_into_string = "Grounded
+GroundedAttack
+Aerial
+AerialAttack"
+change_stance_to = "BidenBlade"
+super_level_ = 1
+supers_used_ = 1
+super_effect_ = true
+
+[node name="SummonEagle" type="Node2D" parent="StateMachine" index="59"]
+script = ExtResource( 105 )
+__meta__ = {
+"_editor_description_": ""
+}
+apply_forces = true
+apply_fric = true
+apply_grav = true
+sprite_animation = "Biden Blast"
+anim_length = 12
+ticks_per_frame = 4
+enter_force_dir_x = "0"
+enter_force_speed = "0"
+title = "Summon Eagle"
+type = 2
+data_ui_scene = ExtResource( 51 )
+button_texture = ExtResource( 68 )
+air_type = 2
+self_hit_cancellable = false
+self_interruptable = false
+interrupt_from_string = "Grounded
+Aerial"
+interrupt_into_string = "Grounded
+Aerial"
+hit_cancel_into_string = "Grounded
+GroundedAttack
+Aerial
+AerialAttack"
+SummonEagleScene = ExtResource( 50 )
+projPosX = 250
+projPosY = -80
+
+[node name="BidenArtSpeed" type="Node2D" parent="StateMachine" index="60"]
+script = ExtResource( 110 )
+anim_length = 5
+title = "Biden Art: Speed"
+type = 3
+air_type = 2
+interrupt_from_string = "Grounded
+GroundedAttack
+Aerial
+AerialAttack"
+interrupt_into_string = "Grounded
+GroundedAttack
+Aerial
+AerialAttack"
+hit_cancel_into_string = "Grounded
+GroundedAttack
+Aerial
+AerialAttack"
+super_level_ = 1
+supers_used_ = 1
+super_freeze_ticks_ = 0
+super_effect_ = true
+
+[node name="BidenArtShield" type="Node2D" parent="StateMachine" index="61"]
+script = ExtResource( 112 )
+__meta__ = {
+"_editor_description_": ""
+}
+anim_length = 5
+title = "Biden Art: Shield"
+type = 3
+air_type = 2
+interrupt_from_string = "Grounded
+GroundedAttack
+Aerial
+AerialAttack"
+interrupt_into_string = "Grounded
+GroundedAttack
+Aerial
+AerialAttack"
+hit_cancel_into_string = "Grounded
+GroundedAttack
+Aerial
+AerialAttack"
+super_level_ = 1
+supers_used_ = 1
+super_freeze_ticks_ = 0
+super_effect_ = true
+
+[node name="BidenArtDamage" type="Node2D" parent="StateMachine" index="62"]
+script = ExtResource( 113 )
+__meta__ = {
+"_editor_description_": ""
+}
+anim_length = 5
+title = "Biden Art: Power"
+type = 3
+air_type = 2
+interrupt_from_string = "Grounded
+GroundedAttack
+Aerial
+AerialAttack"
+interrupt_into_string = "Grounded
+GroundedAttack
+Aerial
+AerialAttack"
+hit_cancel_into_string = "Grounded
+GroundedAttack
+Aerial
+AerialAttack"
+super_level_ = 1
+supers_used_ = 1
+super_freeze_ticks_ = 0
+super_effect_ = true
